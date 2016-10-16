@@ -522,3 +522,9 @@ span.classprice {
   top: 150px;
   font-size: 45px;
 }
+@media (min-width: 769px) {
+  iframe#youtube {
+    height: 315px;
+    width: 560px;
+  }
+}
