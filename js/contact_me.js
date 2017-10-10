@@ -43,6 +43,9 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+
+                    fbq('track', 'Lead');
+                    goog_report_conversion()
                 },
                 error: function() {
                     // Fail message

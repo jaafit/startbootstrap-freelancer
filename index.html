@@ -31,9 +31,63 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '675933709278703');
+        fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=675933709278703&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
 </head>
 
 <body id="page-top" class="index">
+
+    <!-- Google Code for Contact Submit LSNH Conversion Page
+    In your html page, add the snippet and call
+    goog_report_conversion when someone clicks on the
+    chosen link or button. -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        goog_snippet_vars = function() {
+            var w = window;
+            w.google_conversion_id = 1032221859;
+            w.google_conversion_label = "9LqTCKyT6XUQo-mZ7AM";
+            w.google_remarketing_only = false;
+        }
+        // DO NOT CHANGE THE CODE BELOW.
+        goog_report_conversion = function(url) {
+            goog_snippet_vars();
+            window.google_conversion_format = "3";
+            var opt = new Object();
+            opt.onload_callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            }
+            var conv_handler = window['google_trackConversion'];
+            if (typeof(conv_handler) == 'function') {
+                conv_handler(opt);
+            }
+        }
+        /* ]]> */
+    </script>
+    <script type="text/javascript"
+            src="//www.googleadservices.com/pagead/conversion_async.js">
+    </script>
+
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -80,12 +134,12 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <iframe id="youtube" src="https://www.youtube.com/embed/7b1GxZCW4uM" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mh-qQUIyeZU" frameborder="0" allowfullscreen></iframe>
 
                     <div class="intro-text">
                         <span class="name">Viviana</span>
                         <hr class="star-light">
-                        <span class="skills">Spanish Instructor - Native Speaker - Now Accepting New Students</span>
+                        <span class="skills">Spanish Instructor - Native Speaker - Salsa Dancer</span>
                     </div>
                 </div>
             </div>
@@ -164,7 +218,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="text-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.8892802467803!2d-71.54728204852722!3d43.19083397903752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e26a9e4f232ee3%3A0xe3a372993af56545!2s55+Noyes+St%2C+Concord%2C+NH+03301!5e0!3m2!1sen!2sus!4v1503794689998" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -188,7 +242,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name" id="name" >
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -196,13 +250,6 @@
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
